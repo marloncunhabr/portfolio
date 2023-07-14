@@ -1,0 +1,222 @@
+.container {
+    height: 100vh;
+    overflow: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    transition: .4s ease-in-out;
+  }
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #0306168f, #10021875), url(./Imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+.flecha {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    opacity: 0.4;
+  }
+
+  .flecha img {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+
+  }
+
+
+#background1 {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #03061693, #100218c7),
+        url(./Imagens/fundo\ 02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.sobremimh1 {
+    font-family: 'Darker Grotesque';
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 7%;
+    padding-top: 80px;
+}
+
+.sobremimp {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: -49px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+.sobremimp1 {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 7%;
+    max-width: 450px;
+}
+
+.sobremimp2 {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+#background2 {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Imagens/WhatsApp\ Image\ 2023-07-03\ at\ 18.25.25.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+    width: 100vw;
+}
+
+.portifolio1 {
+    font-family: 'Darker Grotesque';
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 7%;
+    padding-top: 80px;
+}
+
+.portifoliop {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: -49px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+.imagemprojetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+
+}
+
+.imagemprojetos img {
+    flex: 1;
+    max-width: 30%;
+    height: auto;
+    position: center;
+    padding-top: 150px;
+
+}
+
+.marlon {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: -49px;
+    margin-top: 150px;
+    margin-left: 7%;
+}
+
+.da-cunha {
+    font-family: 'Darker Grotesque';
+    font-weight: 600;
+    font-size: 90px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    margin-left: 7%;
+}
+
+.desenvolvedor {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 38px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: 7%;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
+.menu {
+    display: inline-flex;
+    margin-right: 5px;
+    margin-left: 3%;
+    margin-top: 15px;
+    color: aliceblue;
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.head {
+    margin-right: 3%;
+}
+
+.imagem-inferior img {
+    margin-right: 10%;
+    margin-top: 30%;
+    margin-left: 350%;
+    width: 35px;
+    height: auto;
+}
+
+.imagem-inferior {
+    display: flex;
+    gap: 10px;
+
+}
+
+.imagem-inferior img {
+    filter: invert(100%);
+}
